@@ -14,6 +14,7 @@
 		2853299F2496A27600CF068A /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2853299D2496A27600CF068A /* ColeccionDeJuegos.xcdatamodeld */; };
 		285329A12496A27900CF068A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285329A02496A27900CF068A /* Assets.xcassets */; };
 		285329A42496A27900CF068A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285329A22496A27900CF068A /* LaunchScreen.storyboard */; };
+		285329AC2496B37600CF068A /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285329AB2496B37600CF068A /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		285329A02496A27900CF068A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285329A32496A27900CF068A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285329A52496A27900CF068A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285329AB2496B37600CF068A /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				285329A22496A27900CF068A /* LaunchScreen.storyboard */,
 				285329A52496A27900CF068A /* Info.plist */,
 				2853299D2496A27600CF068A /* ColeccionDeJuegos.xcdatamodeld */,
+				285329AB2496B37600CF068A /* JuegosViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285329AC2496B37600CF068A /* JuegosViewController.swift in Sources */,
 				285329992496A27600CF068A /* ViewController.swift in Sources */,
 				285329952496A27600CF068A /* AppDelegate.swift in Sources */,
 				285329972496A27600CF068A /* SceneDelegate.swift in Sources */,
